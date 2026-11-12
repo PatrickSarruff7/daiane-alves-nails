@@ -1,0 +1,440 @@
+
+/* Configurações gerais */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf8;
+    color: #5c4945;
+}
+
+
+/* Seção inicial */
+
+.secao-inicio {
+    background-color: #f7eee9;
+    padding: 80px 0;
+}
+
+
+/* Texto de apresentação */
+
+.texto-inicio {
+    padding: 30px;
+}
+
+
+.subtitulo {
+    color: #b77d7d;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+.texto-inicio h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.texto-inicio p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #76635e;
+}
+
+
+/* Botão de agendamento */
+
+.btn-agendamento {
+    display: inline-block;
+    background-color: #b77d7d;
+    color: white;
+    padding: 13px 28px;
+    border-radius: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+
+.btn-agendamento:hover {
+    background-color: #946060;
+    color: white;
+}
+
+
+/* Imagem de destaque */
+
+.imagem-inicio img {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 991px) {
+
+    .secao-inicio {
+        padding: 40px 0;
+    }
+
+    .texto-inicio {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .texto-inicio h1 {
+        font-size: 36px;
+    }
+
+    .imagem-inicio img {
+        height: 350px;
+        margin-top: 30px;
+    }
+
+}/* Seção Sobre */
+.secao-sobre {
+    background-color: #fffaf8;
+    padding: 80px 0;
+}
+
+/* Texto da seção Sobre */
+.texto-sobre {
+    padding: 30px;
+}
+
+.texto-sobre h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #5c4945;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.texto-sobre p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #76635e;
+    margin-bottom: 18px;
+}
+
+/* Imagem da seção Sobre */
+.imagem-sobre img {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+/* Seção Serviços */
+.secao-servicos {
+    background-color: #f7eee9;
+    padding: 80px 0;
+}
+
+/* Título da seção */
+.titulo-servicos {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.titulo-servicos h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #5c4945;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.titulo-servicos p {
+    font-size: 16px;
+    color: #76635e;
+    line-height: 1.8;
+}
+
+/* Cartões de serviços */
+.card-servico {
+    background-color: #fffaf8;
+    border: 1px solid #eadbd5;
+    border-radius: 18px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-servico:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(92, 73, 69, 0.12);
+}
+
+.card-servico h3 {
+    color: #a66f70;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-servico p {
+    color: #76635e;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* Botão de agendamento dos serviços */
+.agendamento-servicos {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/* Padronização das imagens dos serviços */
+.card-servico .imagem-servico {
+    display: block;
+    width: 100%;
+    height: 250px !important;
+    object-fit: cover;
+    border-radius: 18px 18px 0 0;
+}
+
+
+/* Seção Contato */
+.secao-contato {
+    background-color: #f7eee9;
+    padding: 80px 0;
+}
+
+/* Título da seção */
+.titulo-contato {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.titulo-contato h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #5c4945;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.titulo-contato p {
+    font-size: 16px;
+    color: #76635e;
+    line-height: 1.8;
+}
+
+/* Cartões de contato */
+.card-contato {
+    background-color: #fffaf8;
+    border: 1px solid #eadbd5;
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-contato:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(92, 73, 69, 0.12);
+}
+
+.card-contato h3 {
+    color: #a66f70;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-contato p {
+    color: #76635e;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+
+/* Horários de atendimento */
+.horarios-atendimento {
+    text-align: center;
+    background-color: #fffaf8;
+    border: 1px solid #eadbd5;
+    border-radius: 18px;
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto 40px;
+}
+
+.horarios-atendimento h3 {
+    color: #a66f70;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.horarios-atendimento p {
+    color: #76635e;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+
+/* Mapa de localização */
+.mapa-localizacao {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mapa-localizacao h3 {
+    color: #a66f70;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.mapa-localizacao iframe {
+    border-radius: 18px;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #5c4945;
+    color: #fffaf8;
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+.rodape h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.rodape p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.rodape a {
+    color: #f2c6c2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+.rodape .direitos {
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+/* Seção Galeria */
+.secao-galeria {
+    background-color: #fffaf8;
+    padding: 80px 0;
+}
+
+.titulo-galeria {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.titulo-galeria h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #5c4945;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.titulo-galeria p {
+    color: #76635e;
+    line-height: 1.8;
+}
+
+.imagem-galeria {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 18px;
+    transition: transform 0.3s ease;
+}
+
+.imagem-galeria:hover {
+    transform: scale(1.03);
+}
+
+/* Formulário de contato */
+.formulario-contato {
+    background-color: #fffaf8;
+    border: 1px solid #eadbd5;
+    border-radius: 18px;
+    padding: 35px;
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+.formulario-contato h3 {
+    color: #a66f70;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.formulario-contato p {
+    color: #76635e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formulario-contato .form-label {
+    color: #5c4945;
+    font-weight: 600;
+}
+
+.formulario-contato .form-control,
+.formulario-contato .form-select {
+    border: 1px solid #eadbd5;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.formulario-contato .form-control:focus,
+.formulario-contato .form-select:focus {
+    border-color: #a66f70;
+    box-shadow: 0 0 0 0.2rem rgba(166, 111, 112, 0.15);
+}
+
+.formulario-contato button {
+    width: 100%;
+}
+
+/* Identidade visual do nome no cabeçalho */
+.marca-nome {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+.marca-titulo {
+    font-family: Georgia, serif;
+    font-size: 27px;
+    font-weight: 600;
+    color: #8b625b;
+    letter-spacing: 0.5px;
+}
+
+.marca-subtitulo {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #b58b83;
+    margin-top: 5px;
+}
